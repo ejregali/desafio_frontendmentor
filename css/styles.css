@@ -93,6 +93,7 @@ main .card-qr .card-qr__descripcion p {
   font-family: "Outfit", sans-serif;
   text-align: center;
   padding: 24px 15px 25px 15px;
+  line-height: 1.3rem;
 }
 main .attribution {
   font-size: 11px;
