@@ -52,40 +52,33 @@ table {
   border-spacing: 0;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 25px;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
   font-size: 15px;
+  background-color: #D5E1EF;
+}
+
+main {
   width: 100%;
-  height: 100%;
+  height: 100vb;
   background-color: #D5E1EF;
   font-family: "Outfit", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
 }
-
-.card-qr {
+main .card-qr {
   width: 288px;
-  height: auto;
   border-radius: 20px;
   background-color: #FFFFFF;
   padding: 16px;
-  margin: auto;
   box-shadow: 1px 1px 5px 0px rgba(213, 213, 213, 0.75);
 }
-.card-qr img {
+main .card-qr img {
   width: 288px;
   border-radius: 10px;
 }
-.card-qr .card-qr__descripcion h1 {
+main .card-qr .card-qr__descripcion h1 {
   font-size: 22px;
   font-weight: 700;
   color: #1F314F;
@@ -93,13 +86,21 @@ body {
   font-family: "Outfit", sans-serif;
   padding: 24px 15px 0px 15px;
 }
-.card-qr .card-qr__descripcion p {
+main .card-qr .card-qr__descripcion p {
   font-size: 15px;
   font-weight: 400;
   color: #7D889E;
   font-family: "Outfit", sans-serif;
   text-align: center;
   padding: 24px 15px 25px 15px;
+}
+main .attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 25px;
+}
+main .attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /*# sourceMappingURL=styles.css.map */
